@@ -1,4 +1,4 @@
-package d01programlama;
+package day01_javagiriş;
 
 public class C02_Variables {
     public static void main(String[] args) {
