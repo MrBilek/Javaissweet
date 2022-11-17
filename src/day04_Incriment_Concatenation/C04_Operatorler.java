@@ -8,12 +8,13 @@ public class C04_Operatorler {
 
         boolean c;
 
-        System.out.println(c=a*15==b*10);
+        System.out.println(c=a*15==b*10); //true
 
-        System.out.println(c);
+        System.out.println(c);//true
+
         System.out.println(!true); // false
 
-        System.out.println(a<b); //
+        System.out.println(!(a<b)); //false
 
         c= a<=b ;
 
@@ -25,7 +26,21 @@ public class C04_Operatorler {
 
         3 e ve 5 e bölünebilen sayılar
 
-        a%3 ==0 ||
+        a%3 ==0 || a%5==0
+
+        0'dan buyuk ve 100'den kucuk sayılar
+
+        0 < a 100  matematikte 3'lü karsılastırma mumkundur
+                    ancak Java 3'lü karsılastırma yapmaz
+                    mantıksal operatörlerle birbirine baglamalsınız
+
+                    a<0 || a>100
+
+                    bir ücgenin 3 kenarı a,b,c uzunluklarındadır.
+                    Bu ucgenin eskenar oldugunu kontrol etmek isterseniz
+
+                    a==b && b==c
+
          */
 
 

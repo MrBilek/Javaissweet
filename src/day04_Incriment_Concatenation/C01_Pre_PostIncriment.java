@@ -42,14 +42,33 @@ public class C01_Pre_PostIncriment {
 
         System.out.println(sayı);//10
 
-        //DEVAMI DERSTEN SONRA 12:00 DA
+        sayı--;
 
-         sayı=10;
+        //ekranda görülen 10, ama sayının son degeri 9
 
-        ++sayı; // sayıyı 1 artırır
+        System.out.println(sayı);
+
+        sayı=10;
+
         sayı++; // sayıyı 1 artırır
+        ++sayı; // sayıyı 1 artırır
+        System.out.println(sayı);
 
-        System.out.println(sayı); //12
+        sayı=10;
+        System.out.println(sayı++); //10
+        //Java aynı satırda 2 işlem oldugunda sıralama yapar.
+        // eger variable dan sonra ise artırma islemini sonra yapar
+        // bu durumda önce yazdırma sonra artırma islemi yapar
+
+        System.out.println(sayı);//11
+
+        sayı=10;
+        System.out.println(++sayı); //11
+        //++variable dan önce ise artırma islemini once yapar
+        // bu durumda java once artırma sonra yazdırma islemi yapar
+        System.out.println(sayı); //11
+
+
 
 
 
