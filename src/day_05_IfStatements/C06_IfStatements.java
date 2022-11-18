@@ -16,8 +16,9 @@ public class C06_IfStatements {
         double kenar2= scan.nextDouble();
         double kenar3= scan.nextDouble();
 
-        if (kenar1==kenar2 && kenar2== kenar3);
+        if (kenar1==kenar2 && kenar2==kenar3)
         System.out.println("eskenar ücgen");
+
 
 
 
