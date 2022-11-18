@@ -68,6 +68,21 @@ public class C01_Pre_PostIncriment {
         // bu durumda java once artırma sonra yazdırma islemi yapar
         System.out.println(sayı); //11
 
+        int num1=12;
+        int num2= 15;
+        num1*=2;
+        num2/=3;
+        System.out.println(num1+ num2);
+
+        int num =12;
+
+        num--;
+        num--;
+        num--;
+        System.out.println(num);
+
+
+
 
 
 
