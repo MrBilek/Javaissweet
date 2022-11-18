@@ -27,23 +27,20 @@ public class C02_IfStatements {
         int sayı = scan.nextInt();
         //pozitif ise pozitif sayı,
 
-        if (sayı > 0) {
-            System.out.println("Sayı pozitif");
+        if (0 < sayı) {
+            System.out.println("Pozitif sayı");
             //100 ile 999 arasında ise (Sınırlar dahil) "pozitif 3 basamaklı sayı"
         }
         if (100 <= sayı && sayı <= 999) {
-
             System.out.println("pozitif 3 basamaklı sayı");
         }
         // 3 ile bölünebiliyorsa "3'ün katı"
         if (sayı % 3 == 0) {
 
+            System.out.println("3'ün katı");
+            // birler basamagı 7 ise "Mükemmel"
         }
-        System.out.println("3'ün katı");
-        // birler basamagı 7 ise "Mükemmel"
-
         if (sayı % 10 ==7) {
             System.out.println("Mükemmel");
         }}}
 
-    //NOT. DERSTEN SONRA HATALI OLAN KODU İNCELE TAMAMLA PLZ

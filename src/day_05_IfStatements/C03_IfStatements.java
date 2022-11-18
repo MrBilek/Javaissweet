@@ -8,7 +8,7 @@ public class C03_IfStatements {
         int snc=3;
         boolean bl=true;
 
-        if (bl){
+        if (bl);{
             System.out.println("if'den sonraki paranteze boolean dısında bir deger yazılamaz");
 
         }

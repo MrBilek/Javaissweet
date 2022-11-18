@@ -20,5 +20,7 @@ public class C06_IfStatements {
         System.out.println("eskenar ücgen");
 
 
+
+
     }
 }
