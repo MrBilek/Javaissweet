@@ -28,6 +28,7 @@ public class C08_IfStatements_Repetations {
         }
         if (sayı % 10 == 7) {
             System.out.println("Mükemmel");
+
         }
     }
 }
