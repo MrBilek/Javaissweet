@@ -2,7 +2,7 @@ package day_06_IfElseStatements;
 
 import java.util.Scanner;
 
-public class C05_IfElseIf {
+public class C05_IfElseIfStatements {
     public static void main(String[] args) {
 
         Scanner scan =new Scanner(System.in);
