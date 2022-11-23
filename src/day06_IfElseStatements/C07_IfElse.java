@@ -20,16 +20,11 @@ public class C07_IfElse {
 
         double vke=10000/(boy*boy);
         System.out.println("Vücut kitle Endeksiniz:"+vke);
+
         if (vke>30) System.out.println("Obezsiniz");
-        else if (vke>=25) {System.out.println("Kilolusunuz");
-
-
-        } else if (vke>20) {
-            System.out.println("Kilonuz normal");
-
-
-
-        }else System.out.println("Zayıfsınız,kilo almalısınız");
+        else if (vke>=25) {System.out.println("Kilolusunuz");}
+        else if (vke>20) { System.out.println("Kilonuz normal");
+        } else System.out.println("Zayıfsınız,kilo almalısınız");
 
 
     }

@@ -5,18 +5,21 @@ public class C07_NestedtERNARY {
 /*Kullanicidan bir tamsayi alin.
  Sayi pozitifse, cift sayi veya cift sayi degil seceneklerinden uygun olani yazdirin
  Sayi pozitif degilse, 3 basamakli veya 3 basamakli degil seceneklerinden uygun olani yazdirin
-
-
+/*
  */
-      /* int sayı=23;
+
+        int sayı=23;
+
+
         //System.out.println(sayı>0 ? "sayı pozitif" : "sayı pozitif degil");
 
-        /*System.out.println(sayı>0
+        System.out.println(sayı>0
                 ?
                 sayı%2==0 ?"cift sayı" : "tek sayı"
                 :
-               // -100>=sayı && sayı>=-999 ? "3 basamaklı": "#basamaklı degil";
-               }
-       */ //BAK YİNE
+                -100>=sayı && sayı>=-999 ? "3 basamaklı": "#basamaklı degil"
+                );
+
     }
-}
+
+    }
