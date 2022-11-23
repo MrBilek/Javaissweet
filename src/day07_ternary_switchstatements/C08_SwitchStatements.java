@@ -14,7 +14,7 @@ public class C08_SwitchStatements {
         int sayı1 = 20;
         int sayı2 = 10;
 
-        char islem = '*';
+        char islem = '+';
 
         //if else ile yapalım
 
@@ -35,6 +35,7 @@ public class C08_SwitchStatements {
         } else {
             System.out.println("yanlıs islem tercihi");
         }
+        System.out.println("=======");
         //Switch statement ile yapalım
 
         switch (islem) {
@@ -54,7 +55,7 @@ public class C08_SwitchStatements {
             default:
                 System.out.println("yanlıs islem tercihi");
 
-                //aksam inceleyecegim
+
         }
     }
 }
