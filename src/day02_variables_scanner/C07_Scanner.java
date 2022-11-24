@@ -24,6 +24,5 @@ public class C07_Scanner {
         System.out.println("isminiz :");
 
 
-
     }
 }

@@ -2,7 +2,7 @@ package day02_variables_scanner;
 
 import java.util.Scanner;
 
-public class c09_Scanner {
+public class  c09_Scanner {
     public static void main(String[] args) {
 
        /* Soru 7 (Interview)- Kullanicidan iki sayi alip ikisinin degerlerini degistirin(swap).
