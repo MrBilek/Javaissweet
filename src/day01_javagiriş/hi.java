@@ -6,6 +6,17 @@ public class hi {
         System.out.println("bugün kodlamada ilk günümüz");
         System.out.println("buda 3.satır olsun");
 
+
+
+float a=20f;
+float b=6f;
+        System.out.println(a/b);
+double c=20;
+double d=6;
+        System.out.println(c/d);
+
+
+
     }
 }
 

@@ -20,13 +20,23 @@ public class c10_Scanner {
 
 //tekrar bakalım benim yaptıgımla fark ne
 
-        Scanner scan1 = new Scanner(System.in);
-        System.out.println("Lütfen bir ondalıklı sayı girin");
-        double sayıDbl= scan.nextDouble();
-        System.out.println("Lütfen bir tam sayı girin");
-        int sayıİnt= scan.nextInt();
-        System.out.println("sayıların toplamı:" + (sayıDbl+sayıİnt));
-        System.out.println("sayıların çarpımı "+ (sayıDbl*sayıİnt));
+     Scanner can= new Scanner(System.in);
+
+        System.out.println("Kullanicidan bir double sayi alin");
+
+        double sayi= can.nextDouble();
+
+        System.out.println("birde integer sayi alin");
+
+        int sayi2= scan.nextInt();
+
+        System.out.println("sayilarin carpimi"+ (sayi*sayi));
+        System.out.println("sayilarin toplami" +sayi+sayi2);
+
+
+
+
+
 
 
     }

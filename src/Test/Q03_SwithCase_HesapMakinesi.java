@@ -49,7 +49,7 @@ public class Q03_SwithCase_HesapMakinesi {
          */
 
 
-        System.out.println("****************Switch Case**********");
+      /*  System.out.println("****************Switch Case**********");
         int islem = scan.nextInt();
 
         switch (islem) {
@@ -74,23 +74,24 @@ public class Q03_SwithCase_HesapMakinesi {
 
             System.out.println("İslem türünü seciniz:\n1\t+ : Toplama\n2\t- : Cıkarma\n3\t*: Carpma\n4\t/ : Bolme");
 
-            case 1: System.out.println(x + " + " + y + " " + (x + y));break;
+            //case 1: System.out.println(x + " + " + y + " " + (x + y));break;
 
             case 2:
-                System.out.println(x + " + " + y + " " + (x + y));
+                //System.out.println(x + " + " + y + " " + (x + y));
                 break;
 
             case 3:
-                System.out.println(x + " + " + y + " " + (x + y));
+              //  System.out.println(x + " + " + y + " " + (x + y));
                 break;
 
-            case 4:
-                System.out.println(x + " + " + y + " " + (x + y));
+            //case 4: System.out.println(x + " + " + y + " " + (x + y));
                 break;
 
 
         }
 
+
+       */
 
     }
 }
