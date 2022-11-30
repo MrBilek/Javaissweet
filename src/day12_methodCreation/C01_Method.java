@@ -12,13 +12,14 @@ public class C01_Method {
         String str= "Java da yolu yariladik";
 
         str.isEmpty(); //boolean sonuc döndü ama kullanmadik
-        // methdum döndürdügü sonucu kullanmak isterseniz
+        // methodun döndürdügü sonucu kullanmak isterseniz
         // ya yazdirirsiniz
 
         System.out.println(str.isBlank()); //false
 
-        // ya da dönen sonucu ilerde kullanacaksak atama yapabiliriz
+        // ya da dönen sonucu ilerde kullanacaksak atama yapabilir
 
+    
 
 
     }
