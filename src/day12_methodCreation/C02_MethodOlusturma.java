@@ -11,19 +11,15 @@ public class C02_MethodOlusturma {
 
         // carpYAZDIR (Ali veli) argument ve parametreler uymlu degilse CTE olur
 
-        carpYazdir(5,8);
-
-        carpYazdir(7.4 ,8.6); // 63.64
+carpYazdir(12,7.5);
 
     }
+public static void carpYazdir(double sayi1, double sayi2){
 
-    public static void carpYazdir(double sayi1, double sayi2){
-
-
-        System.out.println(sayi1 * sayi2);
+    System.out.println(sayi1 * sayi2);
 
 
-    }
+}
 
 
 }

@@ -7,18 +7,19 @@ public class C05_HesapMakinesi {
 
         //kullancidan 2 sayi ve istedigi islemi alin (+ / * - )
         // bir method olusturup sayilara istenen islemi uygulayip sonucu bize dondurun
-        //kullanici dogru islemi yanlis secmisse 0 dondurur
+        //kullanici dogru islemi yanlis secmisse 0 dondurun
 
-        Scanner scan = new Scanner(System.in);
+     Scanner scan= new Scanner(System.in);
+        System.out.println("lütfen 2 sayi giriniz");
 
-        System.out.println("Lütfen 2 sayi giriniz");
-        double sayi1 = scan.nextDouble();
-        double sayi2 = scan.nextDouble();
+     double sayi1= scan.nextDouble();
+     double sayi2= scan.nextDouble();
 
-        System.out.println("Lütfen bir islem secin + , -, / , *");
-        char islem = scan.next().charAt(0);
+        System.out.println("Lütfen bir islem seciniz +, -, / , *");
+        char islem=scan.next().charAt(0);
 
-        hesapMakinasi(sayi1,sayi2,islem);
+
+        System.out.println(hesapMakinasi(sayi1, sayi2, islem));
 
     }
 
@@ -39,7 +40,12 @@ public class C05_HesapMakinesi {
                 return sayi1 * sayi2;
             default:
                 return 0;
-// DEVAMINA DERSTEN SONRA BAKALIM
+
+
+
+
+
+
         }
     }
 }

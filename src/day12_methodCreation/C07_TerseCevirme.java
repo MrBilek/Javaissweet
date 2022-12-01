@@ -6,7 +6,7 @@ public class C07_TerseCevirme {
         // verilen bir Stringi terse cevirip
         // o halini bize donduren bir method olusturun
 
-        System.out.println(metniTerseCevir("Java Candir"));
+        System.out.println(metniTerseCevir("java Candir"));
 
 
     }

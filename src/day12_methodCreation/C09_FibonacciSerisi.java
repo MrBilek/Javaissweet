@@ -28,9 +28,9 @@ public class C09_FibonacciSerisi {
         } else {
             int sayi1 = 0;
             int sayi2 = 1;
+            System.out.println("0,1 ");
             int sayi3 = 0;
 
-            System.out.println("0 1 ");
 
             for (int i = 3; i <= adet; i++) {
                 sayi3=sayi1+sayi2;
@@ -41,7 +41,7 @@ public class C09_FibonacciSerisi {
                 sayi2 = sayi3;
 
             }
-
+            System.out.println(" ");
         }
     }
 }

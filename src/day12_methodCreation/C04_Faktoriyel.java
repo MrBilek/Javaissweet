@@ -5,7 +5,7 @@ public class C04_Faktoriyel {
 
         //verilen bir sayıyı 15 den kücük bir pozitif tamsayi oldugunu konrol edin
         //kücükse bir method olusturup, faktoriyel degerini yazdirin
-        // sayı istenilen aralikta degilse uyari yazdirir
+        // sayı istenilen aralikta degilse uyari yazdirin
 
         int input = 14;
 
