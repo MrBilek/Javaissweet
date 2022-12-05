@@ -15,6 +15,27 @@ public class C06_IfElseStatements {
         char cinsiyet = scan.next().charAt(0);
 
         System.out.println("Lütfen tam sayı olarak yasınızı giriniz");
+
+        int girilenYas= scan.nextInt();
+
+        if (cinsiyet=='K' || cinsiyet=='k' && girilenYas>=60 ){
+            System.out.println("Emekli olabilir :");
+
+        } else if (cinsiyet=='K' || cinsiyet=='k' && girilenYas >=18) {
+            System.out.println("Emekli olmak icin :"+ (60-girilenYas)+ "yıl daha calismalisin");
+            
+        } else if (cinsiyet=='E' || cinsiyet=='e' && girilenYas>=65) {
+            System.out.println("Emekli olabilirsin dostum");
+
+        } else if (cinsiyet=='E' || cinsiyet=='e' && girilenYas>=18) {
+            System.out.println("Emekli olmak icin"+ (65-girilenYas)+ "yıl daha calismalisin");
+
+        }else {
+            System.out.println("gecersiz bilgi");
+
+        }
+
     }
-}
+    }
+
 

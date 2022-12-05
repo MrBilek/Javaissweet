@@ -28,5 +28,6 @@ public class C04_WhileLoop {
 
         // for loop ile yapilabilecek bir soruyu illa da while loop ile yapmak biraz zahmetli
 
+
     }
 }

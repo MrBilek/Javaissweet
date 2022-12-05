@@ -8,10 +8,12 @@ public class C09_NestedIfElse {
         // Erkek 65 yas ve uzeri emekli olabilir.
         // Cinsiyet ve yasini dikkate alarak “Emekli olabilirsin” veya “Emekli olmak icin ..
         // Yil daha calisman gerekir” yazdirin.
+
         /*Eger degisken sayımız birden fazla ise,
         degiskenlerden birini öncelige alarak
         ona göre bir if else yapısı kurulur
             örnegin bu soruda kadın/erkek secimini ana degisken yapalım*/
+
         Scanner scan = new Scanner(System.in);
         System.out.println("Lütfen cinsiyetinizi giriniz\n K=Kadin, E:Erkek");
         char cinsiyet = scan.next().charAt(0);

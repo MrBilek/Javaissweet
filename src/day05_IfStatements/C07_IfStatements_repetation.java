@@ -16,7 +16,7 @@ public class C07_IfStatements_repetation {
 
         double not = scan.nextDouble();
 
-
+        // 0,1,2,3,4,....50. 51,52,..65,,,85....100
 
         if(0<= not && not <50) {
             System.out.println("Notunuz DD,Malesef kaldınız");

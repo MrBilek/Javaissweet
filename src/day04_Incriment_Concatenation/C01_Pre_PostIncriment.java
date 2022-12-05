@@ -8,6 +8,7 @@ public class C01_Pre_PostIncriment {
     //sayıyı 3 artırın
 
         sayı= sayı+3;
+
         sayı+=3;
 
         sayı++;
@@ -80,20 +81,6 @@ public class C01_Pre_PostIncriment {
         num--;
         num--;
         System.out.println(num);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     }

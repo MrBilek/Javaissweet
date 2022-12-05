@@ -10,24 +10,14 @@ public class C10_SwitchStatements {
         switch (günNo) {
 
             case 1:
-                System.out.println("Hafta ici");
-                break;
             case 2:
-                System.out.println("Hafta ici");
-                break;
             case 3:
-                System.out.println("Hafta ici");
-                break;
             case 4:
-                System.out.println("Hafta ici");
-                break;
             case 5:
                 System.out.println("Hafta ici");
                 break;
 
             case 6:
-                System.out.println("Cumartesi");
-                break;
             case 7:
                 System.out.println("Pazar");
                 break;
@@ -36,7 +26,7 @@ public class C10_SwitchStatements {
                 System.out.println("Gecersiz gün numarası");
         }
 
-        //burdan devam edecegim   }
 
 
-    }}
+    }
+}

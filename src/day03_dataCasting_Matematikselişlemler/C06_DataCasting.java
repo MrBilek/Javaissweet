@@ -26,5 +26,7 @@ public class C06_DataCasting {
         System.out.println((int) sayıDbl/sayıInt); // sonucu double yazdırır
 
 
+
+
     }
 }

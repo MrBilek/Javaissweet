@@ -23,7 +23,7 @@ public class C05_WrapperClass {
 
         // işlemlerimizi yaparken bazen string olarak tanımlanmış ancak bazen matematiksel işlem barındıran variable lar
         //ile karşılaşabiliriz
-        //Vbu durumda bu tür string variable ları sayıya cevırmek igtiyacımız olabilir.
+        //bu durumda bu tür string variable ları sayıya cevırmek ihtiyacımız olabilir.
 
         /* Eger sayıya cevirmek istediğimiz metinlerde
         harf veya sayı olmayan baska karakter varsa Java hata verir.
@@ -38,19 +38,23 @@ public class C05_WrapperClass {
 
         int str3ınt= Integer.parseInt(str3);
 
-        System.out.println(str2ınt+str3ınt);
+        System.out.println(str2ınt+str3ınt);//477
 
         System.out.println(Integer.MAX_VALUE); //2147483647
         System.out.println(Integer.MIN_VALUE); // -2147483648
 
         System.out.println(Short.MAX_VALUE); //32767
 
-        // derste tekrar sırasında yapacağım
+        char krk1='$';
+
+        System.out.println(Character.isDigit(krk1));
+        System.out.println(Character.isLetter(krk1));
+
 
         short sayı3= 4;
         int sayı5= sayı3;
 
-        // whrapper class larda casting olmaz örnek:
+        // whapper class larda casting olmaz örnek:
 
         Short sayı6=45;
         //Integer sayı7= sayı6;

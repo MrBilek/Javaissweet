@@ -1,5 +1,7 @@
 package day04_Incriment_Concatenation;
 
+import java.util.Scanner;
+
 public class C02_Pre_PostIncriment {
     public static void main(String[] args) {
 
@@ -33,8 +35,13 @@ public class C02_Pre_PostIncriment {
         int sayı3= --sayı2;
 
         int sayı4= --sayı1;
+
         System.out.println(sayı1+ ","+sayı2+","+sayı3+","+sayı4);
 
+
+
+
+        System.out.println("***************************************" );
 
 
 

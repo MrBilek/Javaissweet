@@ -27,17 +27,34 @@ public class C07_Modulus {
          */
 
         int girilenSayı=3426;
-        int birlerBasamağı=girilenSayı; // 6 yı buluruz
 
-        System.out.println("birler basamağı: " +birlerBasamağı);
+        int birlerBasamağı= 3426%10;
+        System.out.println("birler basamağı : "+ birlerBasamağı);
+
+
 
         girilenSayı= girilenSayı/10; //342
+        System.out.println("birler basamağı : "+ birlerBasamağı);
 
-        System.out.println("birler basamağı ."+birlerBasamağı);
+        birlerBasamağı= girilenSayı%10; //6
+        System.out.println("birler basamagi : "+birlerBasamağı);
+
         girilenSayı= girilenSayı/10;
+        System.out.println(girilenSayı); //342
+
+        birlerBasamağı= girilenSayı%10; //6
+        System.out.println("birler basamagi : "+birlerBasamağı);
+
+        girilenSayı= girilenSayı/10; //342
+        System.out.println("birler basamağı : "+birlerBasamağı);
+
+        birlerBasamağı= girilenSayı%10; //6
+        System.out.println("birler basamagi : "+birlerBasamağı);
+
+        girilenSayı= girilenSayı/10; //342
+        System.out.println("birler basamağı : "+birlerBasamağı);
 
 
-        Scanner scan = new Scanner(System.in);
 
 
 
