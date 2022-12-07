@@ -7,23 +7,22 @@ public class C07_IlkTest {
         //String arama sonuclarından
         //arama sayısının 50 den fazla oldugunu test edin
 
-        String input="1-48 of 817 results for\"nutella\"";
+        String input = "1-48 of 74 results for\"nutella\"";
 
-        int indexOf= input.indexOf("of");
-        int indexResults= input.indexOf("results");
+         int indexOf= input.indexOf("of");
+         int indexResult= input.indexOf("results");
 
-        String sonucSayısıString=input.substring(indexOf+3, indexResults-1);
+         String sonucSayisiString=input.substring(indexOf+3,indexResult-1);
 
-        //arama sayısının 50 den fazla oldugunu test edin
+         int sonucSayisiInt= Integer.parseInt(sonucSayisiString);
 
-        int sonucSayısıInt= Integer.parseInt(sonucSayısıString);
+        if (sonucSayisiInt>50){
 
-        if (sonucSayısıInt>50){
             System.out.println("Nutella arama testi Passed");
+        }else {
 
-        }else
-            System.out.println("Nutella arama testi FAIL");
-
+            System.out.println("failed");
+        }
 
 
 

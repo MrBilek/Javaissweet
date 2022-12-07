@@ -10,8 +10,7 @@ public class C01_concatenation {
 
         System.out.println(str1.concat(str2)); //Javacandir
 
-        //System.out.println(str: "").concat;
-        ////////bakaılım dersten sonra
+        System.out.println(str1.concat(" "+ str2));
 
 
 

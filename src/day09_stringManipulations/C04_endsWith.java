@@ -29,7 +29,7 @@ public class C04_endsWith {
         } else if (!girilenMail.contains("gmail.com")) {
             System.out.println("Mail gmail olmalı");
 
-        } else if (!girilenMail.endsWith("@gmail.com")); {
+        } else if (!girilenMail.endsWith("@gmail.com")) {
             System.out.println("mailde yazım hatası var");
         }
 
