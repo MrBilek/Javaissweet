@@ -2,6 +2,7 @@ package day16_arrays;
 
 import java.util.Arrays;
 
+
 public class C02_Arrays {
     public static void main(String[] args) {
         // verilen bir string array in tum elementlerini yazdirin

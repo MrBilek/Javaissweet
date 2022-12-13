@@ -20,5 +20,7 @@ public class C13_BinarySearch {
         System.out.println(Arrays.binarySearch(arr, 7));//2
 
 
+
+
     }
 }

@@ -6,22 +6,25 @@ public class C01_ForLoop {
 
     public static void main(String[] args) {
 
-        //kullancıdan bir cahr alıp
+        //kullancıdan bir char alıp
         //o karakterden sonra gelen 10 karakteri alın
-
 
         Scanner scan= new Scanner(System.in);
 
-        System.out.println("bir karakter girin");
+        System.out.println("Kullanicidan bir karakter alin");
 
-        char girilenKarakter=scan.next().charAt(0);
-        //for (int i = 0; i < ; i++) {
+        char karakter= scan.next().charAt(0);
 
-        } //(int i=1 ; i<=10 ; i++ ) {
-            //System.out.println((char); (girilenKarakter+i)+" ");
+        for (int i = 1; i <=10 ; i++) {
 
-            //DERSTEN SONRA BAK
+            System.out.print((char)(karakter+i)+" " );
+
         }
 
+
+
+
+    }
+    }
 
 
