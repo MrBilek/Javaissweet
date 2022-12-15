@@ -5,21 +5,24 @@ public class C03_AsalSayı {
 
         //input olarak verilen bir tam sayının asal sayı olup olmadıgını yazdıralım
 
-        int input=4737;
-        String sonuc="Sayı asal";
+int input= 19;
+String sonuc= "Sayi asal";
 
         for (int i = 2; i <input ; i++) {
 
-          if (input%i==0){
-              sonuc="Sayı asal degil";
 
-              break;
-
-              //Java bir loop un icerisinde "break" görürse o loop u bitirir
-
-          }
+            if (input%i==0){
+                sonuc= "Sayi asal degil";
+                System.out.println("Sayı asal degildir");
+                break;
+            }
 
         }
-        System.out.println("sayı asal degildir");
+
+
+        System.out.println(sonuc);
+
+
+
     }
 }

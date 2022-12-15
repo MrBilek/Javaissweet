@@ -9,16 +9,16 @@ public class C10_NestedLoop {
             1 2 3 4.        4. satir 1’den 4’e kadar yazdir
 
          */
-        int input=4;
+        int input=8;
 
-        for (int i = 1; i <=4 ; i++) { //4 satır old icin outer loop 1-4 arasi olacak
+        for (int i = 1; i <=input ; i++) { //4 satır old icin outer loop 1-4 arasi olacak
 
             for (int j = 1; j <=i; j++) {
                 System.out.print(j+" ");
 
 
             }
-
+            System.out.println("");
         }
 
 

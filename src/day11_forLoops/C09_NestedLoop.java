@@ -5,8 +5,8 @@ public class C09_NestedLoop {
 
         //input olarak verilen kenar uzunluklarına göre asagıdaki sekli cizdirin
 
-        int kisaKenar= 5;
-        int uzunKenar= 8;
+        int kisaKenar = 6;
+        int uzunKenar = 9;
 
         /* * * * * * * * *
          * * * * * * * * *
@@ -21,15 +21,12 @@ public class C09_NestedLoop {
             for (int j = 1; j <=uzunKenar ; j++) {
 
                 System.out.print("* ");
+
             }
-        }
-        System.out.println(" ");
-
-        //Tekrar izle
-
+            System.out.println("");
         }
 
 
     }
-
+}
 

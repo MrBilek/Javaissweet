@@ -10,21 +10,24 @@ public class C02_ForLoop {
         //index i cift sayı olanları büyük harfle yazdırınız
         //ornek: Java output: JaVa
 
-        String input= "Java candir, Selenium heyecandir";
+    String input= "Java candir, Selenium heyecandir";
 
-        for (int i = 0; i <input.length() ; i++) {
+        for (int i = 0; i < input.length(); i++) {
 
-            System.out.print (i%2==0
-                              ? input.substring(i,i+1).toUpperCase()//index cift ise
-                              : input.substring(i,i+1).toLowerCase()//cift degilse
+
+            System.out.print(i%2==0
+                               ? input.substring(i,i+1).toUpperCase()
+                               : input.substring(i,i+1).toLowerCase()
                                 );
 
+
+        }
 
 
 
         }
     }
-}
+
 
 
 

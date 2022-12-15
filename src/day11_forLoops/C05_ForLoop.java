@@ -9,29 +9,27 @@ public class C05_ForLoop {
         // sinirlar dahil olarak aralarindaki tum sayilarin toplamini yazdirin.
         // Bitis degeri baslangic degerinden kucukse, uyari yazdirip islemi sonlandirin
 
-        Scanner scan= new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Lütfen 2 pozitif sayi alin");
 
-        System.out.println("Lütfen baslangic ve bitis degerleri icin 2 pozitif tam sayi giriniz");
+        int baslangic = scan.nextInt();
+        int bitis = scan.nextInt();
 
-        int baslangıc= scan.nextInt();
-        int bitis= scan.nextInt();
-
-        if (bitis < baslangıc){
-            System.out.println("Baslangıc degeri bitis degerinden kücük olmalı");
+        if (bitis < baslangic) {
+            System.out.println("Uyari : islem sonlandirildi");
 
 
         }else {
-            int toplam = 0;
 
+            int toplam=0;
 
-            for (int i = baslangıc; i <=bitis ; i++) {
-                toplam+=1; // tüm sayıları sıraysıla toplama ekledik;
-
+            for (int i = baslangic; i <=bitis; i++) {
+                toplam+=i;
             }
-            System.out.println( baslangıc +"ile"+ bitis + "arasındaki sayıların toplamı :" + toplam );
+                System.out.println(baslangic+"ile "+bitis+ " arasindaki sayilarin toplami"+ toplam );
+
+
 
         }
-
-
     }
 }

@@ -11,15 +11,16 @@ public class C01_ForLoop {
 
         Scanner scan= new Scanner(System.in);
 
-        System.out.println("Kullanicidan bir karakter alin");
+        System.out.println("Lütfen bir karakter giriniz");
 
-        char karakter= scan.next().charAt(0);
+        char girilenKarakter= scan.next().charAt(0);
 
-        for (int i = 1; i <=10 ; i++) {
+        for (int i = 1; i <10 ; i++) {
 
-            System.out.print((char)(karakter+i)+" " );
+            System.out.print((char)(girilenKarakter+i) +" ");
 
         }
+
 
 
 

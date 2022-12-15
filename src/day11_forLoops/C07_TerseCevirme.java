@@ -7,17 +7,19 @@ public class C07_TerseCevirme {
 
         String str= "Java ogrenmek icin cok calismak lazim";
 
-        String terstenStr= "";
+    String terstenStr= " ";
 
         for (int i = str.length()-1; i >=0 ; i--) {
 
+           terstenStr+= str.substring(i,i+1);
 
-           terstenStr +=str.substring(i,i+1);
+
 
 
         }
 
-        System.out.println("Girilen Cümlenin terstern yazilisi :"+terstenStr);
+        System.out.println("Girilen cumlenin tersten yazilisi"+terstenStr);
+
 
     }
 }
