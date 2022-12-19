@@ -3,6 +3,7 @@ package day12_methodCreation;
 import day11_forLoops.C11_NestedLoop;
 import day11_forLoops.C12_MethodCreation;
 import day16_arrays.C10_ArrayeElementEkleme;
+import day16_arrays.C13_BinarySearch;
 
 public class C01_Method {
     public static void main(String[] args) {

@@ -8,13 +8,16 @@ public class C08_Palindrome {
 
         String str= "Bu methodlar ne guzelmis";
 
+
         String tersStr= C07_TerseCevirme.metniTerseCevir(str);
 
         if (str.equals(tersStr)){
             System.out.println("Verilen metin palindrome");
-        } else {
-            System.out.println("verilen metin palandrome degil");
+
+        }else {
+            System.out.println("verilen metin palindrome degil");
         }
+
 
 
 

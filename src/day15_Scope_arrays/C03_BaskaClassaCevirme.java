@@ -44,5 +44,6 @@ public class C03_BaskaClassaCevirme {
         System.out.println(per1.HastaneAdresi); // Cankaya/Ankara
 
 
+
     }
 }

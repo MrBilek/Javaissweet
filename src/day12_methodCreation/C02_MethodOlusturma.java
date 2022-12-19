@@ -5,13 +5,14 @@ public class C02_MethodOlusturma {
 
         //verilen 2 sayiyi carpip sonucu yazdiran bir method olusturun
 // bir method ancak method call yapıldıginda calisir
+
         //method call icin method adi ve parametrelere uygun argüment yazilmalidir
 
         //method call icerisindeki yazilan variable  veya degerlere argüment denir
 
         // carpYAZDIR (Ali veli) argument ve parametreler uymlu degilse CTE olur
 
-carpYazdir(12,7.5);
+carpYazdir(5,5);
 
     }
 public static void carpYazdir(double sayi1, double sayi2){

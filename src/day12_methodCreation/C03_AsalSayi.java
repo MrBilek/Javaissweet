@@ -3,7 +3,7 @@ package day12_methodCreation;
 public class C03_AsalSayi {
     public static void main(String[] args) {
 
-        //verien bir saının asal olup olmadıgını true/ false olarfak döndürenbir method olusturun
+        //verien bir sayının asal olup olmadıgını true/ false olarak döndüren bir method olusturun
 
         // asal sayiMi metodu boolean bir sonuc döndürdügünden bu methodu calistirdigimizda ya direk yazdirmaliyiz
         System.out.println(asalSayiMi(34));// false

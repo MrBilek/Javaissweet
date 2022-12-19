@@ -11,7 +11,12 @@ public class C04_Arrays {
 
         int arr2[]={4,5,6};
 
+
     String[] harfler = new String[4];
+
+        System.out.println(arr.length);
+        System.out.println(arr2.length);
+        System.out.println(harfler.length);
 
 
 
