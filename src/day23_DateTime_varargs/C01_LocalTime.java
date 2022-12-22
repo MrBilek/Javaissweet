@@ -6,6 +6,7 @@ import java.time.LocalTime;
 public class C01_LocalTime {
     public static void main(String[] args) {
 
+
         LocalTime zaman= LocalTime.now();
 
         System.out.println(zaman); // 12:07:00.177590
