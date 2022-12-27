@@ -16,6 +16,11 @@ public class Car {
     String renk = "Renk secilmedi";
 
    public Car (String mrk,String mdl, int yl, int kmetre,String rnk){
+marka=mrk;
+model=mdl;
+yil=yl;
+km=kmetre;
+renk=rnk;
 
 
    }
@@ -27,20 +32,11 @@ public class Car {
 
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    public Car(String marka, String model, int yil) {
+        this.marka=marka;
+        this.model =model;
+        this.yil=yil;
+    }
 
 
     @Override
@@ -52,6 +48,13 @@ public class Car {
                 ",\n, km=" + km +
                 ",\n, renk='" + renk + '\'' +
                 '}';
+    }
+
+    public Car(String marka, String model, int yil, String renk) {
+        this.marka = marka;
+        this.model = model;
+        this.yil = yil;
+        this.renk = renk;
     }
 
     public static void hareket (){

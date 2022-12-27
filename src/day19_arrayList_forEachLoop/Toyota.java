@@ -8,6 +8,8 @@ public class Toyota {
     int km;
     String renk;
 
+
+
     // default constructor suna benzer
 
 
