@@ -1,4 +1,4 @@
-package StringBuilder;
+package day24StringBuilder;
 
 public class EncapsuleClass {
 

@@ -1,4 +1,4 @@
-package StringBuilder;
+package day24StringBuilder;
 
 public class C04_AccessModifier {
 
@@ -15,15 +15,21 @@ public class C04_AccessModifier {
     public static void main(String[] args) {
 
         D obj1= new D();
-        System.out.println(obj1.isinDefault);
-       // obj1.defaultStaticOlmayanMethod();
+        System.out.println(obj1.isimDefault); //Furkan
+        //Default access modifierli static method calisti
+
+       obj1.defaultStaticOlmayanMethod();
+        System.out.println(obj1.isimDefault); //Furkan
+        System.out.println(D.isimDefaultStatic); //Sevilay
+        obj1.defaultStaticOlmayanMethod();
+        D.defaultStaticMethod();
         //default access modifier li static olmayan method calisti
 
         // baska classlardaki class uyelerine erisimde
         // access modifier ve static keyword u dikkate alinmalidir
         // illa da obje uzerinden kullanmak istersniz
         // class uyelerinin ismini yazmaniz gerekir.
-        System.out.println(obj1.isinDefault);
+
 
         //System.out.println(D.);
 
