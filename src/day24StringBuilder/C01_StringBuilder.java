@@ -27,6 +27,8 @@ public class C01_StringBuilder {
         System.out.println(sb2.capacity()); // 24=2*11+2
 
 
+    StringBuilder b2= new StringBuilder();
+        System.out.println(b2);
 
 
     }
